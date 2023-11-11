@@ -8,12 +8,6 @@ body {
 
 }
 
-hr {
-  max-width: 65px;
-  border-width: 3px;
-  border-color: #F05F44; 
-}
-
 h1 {
   font-size: 3rem; 
   color: #e2dbdb;
@@ -47,3 +41,18 @@ h1 {
   padding: 1rem 2rem; 
 }
 
+p{
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color:#fff;
+}
+
+.zmdi::after{
+  content: icon;
+}
+.icon-p{
+  font-size: 32px;
+  color:#ee4b08;
+}
